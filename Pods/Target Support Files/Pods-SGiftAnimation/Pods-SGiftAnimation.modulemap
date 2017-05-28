@@ -1,0 +1,6 @@
+framework module Pods_SGiftAnimation {
+  umbrella header "Pods-SGiftAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

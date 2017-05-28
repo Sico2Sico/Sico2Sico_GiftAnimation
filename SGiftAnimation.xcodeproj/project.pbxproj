@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078C24F31ED9BD4A00647A48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C24F21ED9BD4A00647A48 /* AppDelegate.swift */; };
+		078C24F51ED9BD4A00647A48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C24F41ED9BD4A00647A48 /* ViewController.swift */; };
+		078C24F81ED9BD4A00647A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078C24F61ED9BD4A00647A48 /* Main.storyboard */; };
+		078C24FA1ED9BD4A00647A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078C24F91ED9BD4A00647A48 /* Assets.xcassets */; };
+		078C24FD1ED9BD4A00647A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078C24FB1ED9BD4A00647A48 /* LaunchScreen.storyboard */; };
+		078C250A1ED9BF4000647A48 /* SGiftDigitLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C25091ED9BF4000647A48 /* SGiftDigitLabel.swift */; };
+		078C250C1EDA3D5500647A48 /* SGiftChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C250B1EDA3D5500647A48 /* SGiftChannelView.swift */; };
+		078C250E1EDA468200647A48 /* SGiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C250D1EDA468200647A48 /* SGiftModel.swift */; };
+		078C25101EDA960A00647A48 /* SGiftContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C250F1EDA960A00647A48 /* SGiftContainerView.swift */; };
+		702D2873218903304405E276 /* Pods_SGiftAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7758363E156BA03A37F2B8F /* Pods_SGiftAnimation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		078C24EF1ED9BD4A00647A48 /* SGiftAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGiftAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		078C24F21ED9BD4A00647A48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		078C24F41ED9BD4A00647A48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		078C24F71ED9BD4A00647A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		078C24F91ED9BD4A00647A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		078C24FC1ED9BD4A00647A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		078C24FE1ED9BD4A00647A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078C25091ED9BF4000647A48 /* SGiftDigitLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGiftDigitLabel.swift; sourceTree = "<group>"; };
+		078C250B1EDA3D5500647A48 /* SGiftChannelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGiftChannelView.swift; sourceTree = "<group>"; };
+		078C250D1EDA468200647A48 /* SGiftModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGiftModel.swift; sourceTree = "<group>"; };
+		078C250F1EDA960A00647A48 /* SGiftContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGiftContainerView.swift; sourceTree = "<group>"; };
+		5E30BD3E43B56ACB9F201EC4 /* Pods-SGiftAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGiftAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGiftAnimation/Pods-SGiftAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		97A0005B2D787C3807C6B355 /* Pods-SGiftAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGiftAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGiftAnimation/Pods-SGiftAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		A7758363E156BA03A37F2B8F /* Pods_SGiftAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGiftAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		078C24EC1ED9BD4A00647A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702D2873218903304405E276 /* Pods_SGiftAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078C24E61ED9BD4A00647A48 = {
+			isa = PBXGroup;
+			children = (
+				078C24F11ED9BD4A00647A48 /* SGiftAnimation */,
+				078C24F01ED9BD4A00647A48 /* Products */,
+				1E2B1F474B12C0132EC637E0 /* Pods */,
+				AAB36E7AAB5381FA068F158A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		078C24F01ED9BD4A00647A48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078C24EF1ED9BD4A00647A48 /* SGiftAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		078C24F11ED9BD4A00647A48 /* SGiftAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				078C25041ED9BDA000647A48 /* SGiftAnimation */,
+				078C24F21ED9BD4A00647A48 /* AppDelegate.swift */,
+				078C24F41ED9BD4A00647A48 /* ViewController.swift */,
+				078C24F61ED9BD4A00647A48 /* Main.storyboard */,
+				078C24F91ED9BD4A00647A48 /* Assets.xcassets */,
+				078C24FB1ED9BD4A00647A48 /* LaunchScreen.storyboard */,
+				078C24FE1ED9BD4A00647A48 /* Info.plist */,
+			);
+			path = SGiftAnimation;
+			sourceTree = "<group>";
+		};
+		078C25041ED9BDA000647A48 /* SGiftAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				078C25051ED9BDA000647A48 /* Controllview */,
+				078C25061ED9BDA000647A48 /* Model */,
+				078C25071ED9BDA000647A48 /* View */,
+				078C25081ED9BDA000647A48 /* ViewModel */,
+			);
+			path = SGiftAnimation;
+			sourceTree = "<group>";
+		};
+		078C25051ED9BDA000647A48 /* Controllview */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllview;
+			sourceTree = "<group>";
+		};
+		078C25061ED9BDA000647A48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				078C250D1EDA468200647A48 /* SGiftModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		078C25071ED9BDA000647A48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				078C25091ED9BF4000647A48 /* SGiftDigitLabel.swift */,
+				078C250B1EDA3D5500647A48 /* SGiftChannelView.swift */,
+				078C250F1EDA960A00647A48 /* SGiftContainerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		078C25081ED9BDA000647A48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E2B1F474B12C0132EC637E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E30BD3E43B56ACB9F201EC4 /* Pods-SGiftAnimation.debug.xcconfig */,
+				97A0005B2D787C3807C6B355 /* Pods-SGiftAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAB36E7AAB5381FA068F158A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7758363E156BA03A37F2B8F /* Pods_SGiftAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		078C24EE1ED9BD4A00647A48 /* SGiftAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078C25011ED9BD4A00647A48 /* Build configuration list for PBXNativeTarget "SGiftAnimation" */;
+			buildPhases = (
+				4AF814B5D81EBA3EE695E911 /* [CP] Check Pods Manifest.lock */,
+				078C24EB1ED9BD4A00647A48 /* Sources */,
+				078C24EC1ED9BD4A00647A48 /* Frameworks */,
+				078C24ED1ED9BD4A00647A48 /* Resources */,
+				7817A3301A15850699D7874D /* [CP] Embed Pods Frameworks */,
+				4F916D87AA557460DE8029F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGiftAnimation;
+			productName = SGiftAnimation;
+			productReference = 078C24EF1ED9BD4A00647A48 /* SGiftAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		078C24E71ED9BD4A00647A48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Sico2Sico;
+				TargetAttributes = {
+					078C24EE1ED9BD4A00647A48 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2TV8766467;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 078C24EA1ED9BD4A00647A48 /* Build configuration list for PBXProject "SGiftAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 078C24E61ED9BD4A00647A48;
+			productRefGroup = 078C24F01ED9BD4A00647A48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				078C24EE1ED9BD4A00647A48 /* SGiftAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		078C24ED1ED9BD4A00647A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C24FD1ED9BD4A00647A48 /* LaunchScreen.storyboard in Resources */,
+				078C24FA1ED9BD4A00647A48 /* Assets.xcassets in Resources */,
+				078C24F81ED9BD4A00647A48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AF814B5D81EBA3EE695E911 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F916D87AA557460DE8029F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGiftAnimation/Pods-SGiftAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7817A3301A15850699D7874D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGiftAnimation/Pods-SGiftAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078C24EB1ED9BD4A00647A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C24F51ED9BD4A00647A48 /* ViewController.swift in Sources */,
+				078C24F31ED9BD4A00647A48 /* AppDelegate.swift in Sources */,
+				078C25101EDA960A00647A48 /* SGiftContainerView.swift in Sources */,
+				078C250C1EDA3D5500647A48 /* SGiftChannelView.swift in Sources */,
+				078C250E1EDA468200647A48 /* SGiftModel.swift in Sources */,
+				078C250A1ED9BF4000647A48 /* SGiftDigitLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		078C24F61ED9BD4A00647A48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078C24F71ED9BD4A00647A48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		078C24FB1ED9BD4A00647A48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078C24FC1ED9BD4A00647A48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		078C24FF1ED9BD4A00647A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		078C25001ED9BD4A00647A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		078C25021ED9BD4A00647A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E30BD3E43B56ACB9F201EC4 /* Pods-SGiftAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2TV8766467;
+				INFOPLIST_FILE = SGiftAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoepp.store.SGiftAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		078C25031ED9BD4A00647A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A0005B2D787C3807C6B355 /* Pods-SGiftAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2TV8766467;
+				INFOPLIST_FILE = SGiftAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoepp.store.SGiftAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078C24EA1ED9BD4A00647A48 /* Build configuration list for PBXProject "SGiftAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078C24FF1ED9BD4A00647A48 /* Debug */,
+				078C25001ED9BD4A00647A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078C25011ED9BD4A00647A48 /* Build configuration list for PBXNativeTarget "SGiftAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078C25021ED9BD4A00647A48 /* Debug */,
+				078C25031ED9BD4A00647A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 078C24E71ED9BD4A00647A48 /* Project object */;
+}
